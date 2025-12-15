@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Yunis Isayev</div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="javascript:void(0)" onclick="showPage('home')">Home</a></li>
+                <li><a href="javascript:void(0)" onclick="showPage('about')">About</a></li>
+                <li><a href="javascript:void(0)" onclick="showPage('projects')">Projects</a></li>
+                <li><a href="https://github.com/Yuniss07" target="_blank" class="nav-social" title="GitHub">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                </a></li>
+                <li><a href="https://www.codecademy.com/profiles/Yuniss07" target="_blank" class="nav-social" title="Codecademy">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm-2 18l-4-4 1.414-1.414L10 14.172l6.586-6.586L18 9l-8 9z"/></svg>
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Page -->
+        <div id="home" class="page active">
+            <div class="hero">
+                <img src="WhatsApp%20Image%202025-12-07%s20at%2013.09.04.jpeg" alt="Yunis — profile photo" class="profile-photo" loading="lazy">
+                <div class="hero-content">
+                    <h1>Hi, I'm <span>Yunis</span></h1>
+                    <p>Computer Science & Mathematics Enthusiast</p>
+                    <p>I'm passionate about solving complex problems through elegant code and mathematical thinking. Currently exploring the intersection of algorithms, logic gates, and modern web technologies.</p>
+                    <div class="social-icons">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Page -->
+        <div id="about" class="page">
+            <div class="about-section">
+                <h2>About Me</h2>
+                <p>I am a  first year Computer science student in ADA university. I have a deep interest in coding and mathematics.</p>
+                
+                <h3>Background</h3>
+                <p>I'm currently building my foundation in web development, learning HTML, CSS, JavaScript, and various programming concepts. Through hands-on projects and coursework, I'm developing practical skills that bridge theory and real-world applications.</p>
+                <p><strong>Programming background:</strong> I have experience with Python (scripting, data manipulation, and basic libraries) and C++ (fundamentals, object-oriented programming, and simple algorithms). I apply these languages to small projects and exercises to strengthen problem-solving and core programming concepts.</p>
+                
+                <h3>Skills & Technologies</h3>
+                <ul>
+                    <li>HTML5 & CSS3</li>
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>Git & GitHub</li>
+                </ul>
+                
+                <h3>Learning & Development</h3>
+                <p>I am committed to continuous learning and growth in Computer Science and Mathematics. I actively participate in coding challenges, online courses, and practical projects to deepen my understanding of algorithms, data structures, and software design principles.</p>
+                
+                <h3>Certifications & Achievements</h3>
+                <ul>
+                    <li>Gold Medal — National Mathematical Olympiad(x2)</li>
+                    <li>Silver Medal — National Mathematical Olympiad</li>
+                    <li>Bronze Medal — Balkan Mathematical Olympiad</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Projects Page -->
+        <div id="projects" class="page">
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="WhatsApp%20Image%202025-12-11%20at%2009.06.12.jpeg" alt="Project 1 illustration" class="project-thumb" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Logic Gates</h3>
+                        <p>Explores different combinations of AND, OR, XOR, and NAND gates — demonstrating how gate combinations produce various outputs. Includes truth tables, example circuits, and visual diagrams to explain common logical behaviors.</p>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Screenshot%202025-12-11%20184938.png" alt="Hour of Code illustration" class="project-thumb project-top-photo" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Hour of Code</h3>
+                        <p>Teaching young students the basics of programming: fun, bite-sized lessons covering sequences, variables, conditional logic, loops, and simple debugging to build confidence and spark curiosity.</p>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Screenshot%202025-12-11%20182642.png" alt="Personal Website illustration" class="project-thumb project-top-photo" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>This website! Built using HTML, CSS, and JavaScript with responsive design principles. Hosted on GitHub Pages and version controlled using Git. Features a clean, modern design with light blue and white color scheme.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="https://github.com/Yuniss07" target="_blank">GitHub Profile</a>
+                <a href="https://www.codecademy.com/profiles/Yuniss07" target="_blank">Codecademy Profile</a>
+                <a href="https://github.com/Yuniss07" target="_blank">Website Repository</a>
+            </div>
+            <p class="copyright">&copy; 2025 Yunis. Built with HTML, CSS & JavaScript.</p>
+        </div>
+    </footer>
+
+    <script>
+        function showPage(pageId) {
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => page.classList.remove('active'));
+            document.getElementById(pageId).classList.add('active');
+            
+            // Close mobile menu after selection
+            if (window.innerWidth <= 768) {
+                document.getElementById('navLinks').classList.remove('active');
+            }
+        }
+
+        function toggleMenu() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const nav = document.querySelector('.nav-container');
+            const navLinks = document.getElementById('navLinks');
+            if (!nav.contains(event.target) && navLinks.classList.contains('active')) {
+                navLinks.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>

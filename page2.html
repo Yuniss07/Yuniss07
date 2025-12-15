@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">MyPortfolio</div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page2.html">Services</a></li>
+                <li><a href="page3.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="services-section">
+            <h1>My Services</h1>
+            <p class="intro">Explore the range of web development and programming services I offer to help bring your ideas to life.</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Web Design</h3>
+                    <p>Creating beautiful, responsive web interfaces with modern design principles. I specialize in clean, user-friendly layouts that work seamlessly across all devices.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Frontend Development</h3>
+                    <p>Building dynamic and interactive web applications using HTML, CSS, and JavaScript. I create smooth user experiences with optimized performance and accessibility in mind.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Responsive Design</h3>
+                    <p>Developing mobile-first responsive websites that adapt perfectly to any screen size. Your site will look great on phones, tablets, and desktops.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">⚙️</div>
+                    <h3>Code Optimization</h3>
+                    <p>Improving existing code for better performance, readability, and maintainability. I help clean up technical debt and implement best practices.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Bug Fixes & Support</h3>
+                    <p>Debugging and troubleshooting issues in your web projects. Quick turnaround times and reliable support to keep your applications running smoothly.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📚</div>
+                    <h3>Learning & Mentoring</h3>
+                    <p>Sharing knowledge and helping others learn web development. I offer guidance on best practices, project structure, and modern development techniques.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Yunis. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
